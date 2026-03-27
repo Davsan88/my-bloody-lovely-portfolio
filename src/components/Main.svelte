@@ -70,19 +70,19 @@
 
     let benefits = [
         {
-            name: "a Self-Taught Developer Driven by Passion",
+            name: "Self-taught developer driven by curiosity",
             description:
-                "My transition into the world of software development is a testament to my passion for technology and continuous learning. Starting from scratch, I immersed myself in  HTML, CSS, JavaScript, React, and Python, utilizing free online resources and hands-on projects on GitHub. This self-driven journey has not only equipped me with technical skills but also ignited a deep appreciation for creative problem-solving. This relentless drive to learn and grow keeps me inspired and motivated to contribute to innovative tech projects.",
+                "I started learning development from scratch, building projects and figuring things out step by step. Through that process, I’ve developed a strong foundation in JavaScript, React, and modern CSS — but more importantly, I’ve learned how to solve problems and think like a developer. I enjoy the process of building, breaking, and improving things until they work the way they should.",
         },
         {
-            name: "a Leader Who Values Effective Communication",
+            name: "Clear communicator and team player",
             description:
-                "Throughout my career, I've discovered the importance of leadership and clear communication. Whether managing customer accounts at Envelopes Ltd or coordinating with stakeholders at Crowdcube, I have always prioritized building strong relationships and fostering a collaborative environment. My ability to communicate effectively has been key in leading teams, resolving conflicts, and ensuring everyone is on the same page. These experiences have shaped me into a leader who values transparency, empathy, and teamwork, qualities that I bring to every project and team I join.",
+                "Before transitioning into tech, I worked in roles where communication really mattered — managing expectations, solving problems, and working with different types of people. That experience translates directly into development: writing clear code, collaborating effectively, and thinking about the people on the other side of the product.",
         },
         {
-            name: "Passionate About Personal Growth and New Challenges",
+            name: "Always learning, always improving",
             description:
-                "I am driven by a relentless pursuit of personal and professional growth. From learning new programming languages to adapting to diverse roles across various industries, I thrive on challenges that push my boundaries. My journey from hospitality to tech is a reflection of my adaptability and eagerness to embrace new opportunities. Engaging in self-improvement activities, whether through technology, music, or sports, keeps me energized and curious. This passion for continuous growth and love for tackling new challenges defines my approach to both life and work.",
+                "I’m naturally drawn to challenges that push me forward. Whether it’s learning a new tool, improving how I structure code, or building better user experiences, I’m always looking to get better. For me, development isn’t just about writing code — it’s about continuous growth and building things that actually matter.",
         },
     ];
 </script>
@@ -160,11 +160,7 @@
                 A bit <span class="montserrat text-violet-400">about</span> me.
             </h3>
         </div>
-        <p
-            class="mx-auto montserrat font-semibold text-lg sm:text-xl md:text-2xl"
-        >
-            I am . . .
-        </p>
+
         <div class="flex flex-col gap-20 w-full mx-auto maz-w-[800px]">
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
@@ -248,10 +244,12 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">
-            Ready to embrace the <span class="text-violet-400 montserrat"
-                >future</span
-            >?
-        </p>
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center montserrat">
+
+            
+                Currently looking for my <span class="text-violet-400 montserrat"
+                >first opportunity</span> as a Front-End Developer
+        
+    </h5>
     </section>
 </main>
