@@ -18,23 +18,33 @@
 `,
         },
         {
-            name: "Meme Generator",
-            icon: "fa-solid fa-images",
-            type: "fa",
-            href: "https://meme-generator-davsan.netlify.app/",
-            description: `The Meme Generator App is a <strong
-                            class="text-violet-400">React-based</strong
-                        >
-                        web application designed for creating and customizing memes.
-                        It features
-                        <strong class="text-violet-400"
-                            >dynamic state management, API integration</strong
-                        >
-                        to fetch meme data, and responsive design. Users can
-                        <strong class="text-violet-400"
-                            >generate random meme images</strong
-                        > and overlay them with custom text, making it a fun and
-                        interactive project that showcases core React skills.`,
+            name: "Reading Log",
+            icon: "/images/book-solid.png",
+            type: "image",
+            href: "https://davs-reading-log.netlify.app/",
+            description: `The Reading Log is a <strong class="text-violet-400">content-driven blog application</strong> built with 
+    <strong class="text-violet-400">HTML, CSS, and JavaScript</strong>, focused on clean structure and reusable rendering logic.
+    
+    It dynamically renders posts across multiple pages, using <strong class="text-violet-400">URL parameters, shared components</strong>, 
+    and <strong class="text-violet-400">data-driven rendering</strong> to keep the UI consistent.
+    
+    The project highlights <strong class="text-violet-400">separation of concerns (helpers vs render functions)</strong>, 
+    responsive design with <strong class="text-violet-400">CSS Grid and clamp()</strong>, and thoughtful UI/UX decisions for readability and layout.`,
+        },
+        {
+            name: "Dav’s Diner",
+            icon: "/images/pizza-slice-solid.png",
+            type: "image",
+            href: "https://davsdiner.netlify.app/",
+            description: `Dav’s Diner is a <strong class="text-violet-400">mobile-first ordering app</strong> built with 
+    <strong class="text-violet-400">vanilla JavaScript</strong>, focusing on <strong class="text-violet-400">state-driven UI</strong> and clean architecture.
+    
+    The app allows users to <strong class="text-violet-400">add, remove, and manage orders dynamically</strong>, 
+    with real-time updates to totals and UI visibility. It includes <strong class="text-violet-400">modal-based checkout, input validation</strong>, 
+    and smooth interaction states.
+    
+    This project demonstrates <strong class="text-violet-400">event delegation, DOM-driven state management</strong>, 
+    and building scalable logic without frameworks — mirroring real-world application patterns.`,
         },
         {
             name: "Chef Enzo",
@@ -55,14 +65,6 @@
                             >using AI-powered recommendations</strong
                         >, making it a practical and innovative project that
                         demonstrates modern web development skills.`,
-        },
-        {
-            name: "Davnilla To-Do App",
-            icon: "fa-solid fa-list-check",
-            type: "fa",
-            href: "https://davnilla-to-do-app.netlify.app/",
-            description: `Davnilla To-Do is a <strong class="text-violet-400">feature-rich, intuitive</strong> task management application built with <strong class="text-violet-400">HTML</strong>, <strong class="text-violet-400">CSS</strong>, and <strong class="text-violet-400">JavaScript</strong>. Designed for efficiency and flexibility, it enables users to 
-            <strong class="text-violet-400">create, update, delete, and  persist</strong> tasks across sessions. With a sleek, responsive design and a built-in <strong class="text-violet-400">dark mode</strong>, Davnilla To-Do ensures an optimal user experience in any lighting condition. `,
         },
     ];
 
@@ -132,7 +134,9 @@
                 work?
             </h3>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-18 auto-rows-fr">
+        <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-18 auto-rows-fr"
+        >
             {#each steps as step}
                 <a href={step.href} target="_blank">
                     <Step {step}>
